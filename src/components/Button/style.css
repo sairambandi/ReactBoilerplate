@@ -1,0 +1,9 @@
+.btn {
+  position: relative;
+  cursor: pointer;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: all !important;
+}

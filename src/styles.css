@@ -1,0 +1,35 @@
+* {
+  outline: none;
+}
+label {
+  display: block;
+}
+.App {
+  font-family: calibri;
+  text-align: left;
+}
+.App div {
+  padding: 0px;
+}
+
+.row {
+  width: 100%;
+  float: left;
+}
+[class*="col-"] {
+  margin-bottom: 15px;
+  float: left;
+  padding: 0px 10px;
+}
+.col-xl-12 {
+  width: 100%;
+}
+.col-xl-6 {
+  width: 50%;
+}
+.col-xl-3 {
+  width: 25%;
+}
+.col-xl-4 {
+  width: 33.33%;
+}

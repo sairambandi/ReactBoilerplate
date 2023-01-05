@@ -1,0 +1,26 @@
+.suggestion-sec {
+  position: relative;
+  z-index: 2;
+  .suggestion-box {
+    position: absolute;
+    background-color: #FFF;
+    max-height: 150px;
+    overflow-y: scroll;
+    top:0px;
+    width: 100%;
+    ul {
+      padding: 0px;
+      margin: 0px;
+      li {
+        list-style: none;
+        border: 1px solid #cccccc;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;   
+      }
+      li:hover {
+        background:#cccccc;
+      }
+    }
+  }
+}

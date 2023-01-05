@@ -1,0 +1,8 @@
+.btn-sec {
+  border: 0px solid;
+  background: none;
+  color: #ccc;
+  min-height: 30px;
+  padding: 10px 20px;
+  position: relative;
+}

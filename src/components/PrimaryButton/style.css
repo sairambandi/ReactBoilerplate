@@ -1,0 +1,40 @@
+.btn-primary {
+  background: green;
+  padding: 10px 20px;
+  border: 0px solid;
+  color: #fff;
+  border-radius: 5px;
+  min-height: 30px;
+  position: relative;
+}
+.btn.loading {
+  opacity: 0.5;
+  padding-right: 40px;
+}
+.btn.loading:after {
+  content: "";
+  position: absolute;
+  border-radius: 100%;
+  right: 6px;
+  top: 50%;
+  width: 0px;
+  height: 0px;
+  margin-top: -2px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-left-color: #fff;
+  border-top-color: #fff;
+  animation: spin 0.6s infinite linear, grow 0.3s forwards ease-out;
+}
+@keyframes spin {
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes grow {
+  to {
+    width: 14px;
+    height: 14px;
+    margin-top: -8px;
+    right: 13px;
+  }
+}
